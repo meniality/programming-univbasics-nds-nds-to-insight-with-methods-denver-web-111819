@@ -26,6 +26,7 @@ def gross_for_director(director_data)
   
   while movie_index < director_data[:movies].length do
     gross_income += director_data[:movies][movie_index][:worldwide_gross]
+    movie_index += 1
   end 
   gross_income
 end
