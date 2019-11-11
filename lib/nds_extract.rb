@@ -11,7 +11,9 @@ def directors_totals(nds)
   director_index = 0 
   
   while director_index < nds.length do
-    director_data = 
+    director_data = nds[director_index]
+    
+    result[]
   end 
 end
 
