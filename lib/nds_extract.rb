@@ -16,5 +16,7 @@ def gross_for_director(director_data)
   gross_income = 0 
   index = 0 
   
-  while 
+  while index < director_data[:movies].length do
+    gross_income += director_data[:movies][index]
+  end 
 end
